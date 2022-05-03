@@ -1,7 +1,11 @@
 package day11.testngsamples;
 
 import org.testng.annotations.Test;
-
+/**
+ * Testing 
+ * @author Asus
+ *
+ */
 public class Example_Param3 {
 	@Test(enabled=true)
 	public void param1() {
