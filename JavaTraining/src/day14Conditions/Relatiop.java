@@ -1,3 +1,5 @@
+package day14Conditions;
+
 public class Relatiop {
 
  public static void main(String[] args) {

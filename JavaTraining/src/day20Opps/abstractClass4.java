@@ -1,6 +1,6 @@
 package day20Opps;
 abstract class RBIBank102 {
-	final abstract double getRateOfInterestForHomeLoan();
+	public abstract double getRateOfInterestForHomeLoan();
 	//abstract mean must be overridden
 	//final means can't be override
 }

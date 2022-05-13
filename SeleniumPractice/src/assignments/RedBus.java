@@ -21,12 +21,12 @@ public class RedBus {
 		//select src 
 		driver.findElement(By.id("src")).sendKeys("Pune");
 		WebElement src=driver.findElement(By.cssSelector(".homeSearch>*:nth-child(2)"));
-		wait.until(ExpectedConditions.elementToBeClickable(src));
+		//wait.until(ExpectedConditions.elementToBeClickable(src));
 		src.click();
 		//select dest
 		driver.findElement(By.id("dest")).sendKeys("Goa");
 		WebElement dest=driver.findElement(By.cssSelector(".homeSearch>*:nth-child(4)"));
-		wait.until(ExpectedConditions.elementToBeClickable(dest));
+		//wait.until(ExpectedConditions.elementToBeClickable(dest));
 		dest.click();
 		//select date
 		driver.findElement(By.id("onward_cal")).click();
@@ -41,7 +41,7 @@ public class RedBus {
 		//bus type
 		driver.findElement(By.cssSelector("body")).sendKeys(Keys.ARROW_DOWN);
 		WebElement bus=driver.findElement(By.cssSelector(".list-chkbox>li:nth-child(3)>label"));
-		wait.until(ExpectedConditions.elementToBeClickable(bus));
+		//wait.until(ExpectedConditions.elementToBeClickable(bus));
 		bus.click();
 		//page down
 		driver.findElement(By.cssSelector("body")).sendKeys(Keys.chord(Keys.COMMAND,Keys.END));

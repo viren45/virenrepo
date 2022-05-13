@@ -32,7 +32,7 @@ public class Example7 {
 		WebElement logoutBtn = driver.findElement(By.linkText("Logout"));
 		// Explicit wait
 		WebDriverWait wait = new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions.elementToBeClickable(logoutBtn));
+		//wait.until(ExpectedConditions.elementToBeClickable(logoutBtn));
 
 		System.out.println("After login page title: " + driver.getTitle());
 

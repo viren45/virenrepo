@@ -3,7 +3,7 @@ package day20Opps;
 //final methods cannot be overridden
 class Parent3 {
 	// Can't be overridden
-	final void show() {
+	 void show() {
 		System.out.println("I am final method of Parents class");
 	}
 }

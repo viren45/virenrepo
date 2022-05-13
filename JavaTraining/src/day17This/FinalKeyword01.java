@@ -6,11 +6,11 @@ class FinalKeyword01 {
 		
 		final int age=20;
 		System.out.println("age: "+age);
-		age=25;
+		//age=25;
 		System.out.println("age: "+age);
-		age=30;
+		//age=30;
 		System.out.println("age: "+age);
-		age=34;
+		//age=34;
 		System.out.println("age: "+age);
 	}
 }

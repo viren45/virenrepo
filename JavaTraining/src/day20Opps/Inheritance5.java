@@ -5,12 +5,12 @@ class A2 {
 		System.out.println("Hello");
 	}
 }
-class B2 {
+class B2 extends A2 {
 	void msg() {
 		System.out.println("Welcome");
 	}
 }
-class Inheritance5 extends A2,B2{
+class Inheritance5 extends B2{
 	
 	Inheritance5(){
 		super();//confusion 

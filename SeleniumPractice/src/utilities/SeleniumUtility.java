@@ -57,7 +57,7 @@ public class SeleniumUtility {
 		return "";
 	}
 	
-	public List<WebElement> getAllElements(String locatorType,String locatorValue){
+	public void getAllElements(String locatorType,String locatorValue){
 		//switch  case
 	}
 	

@@ -1,4 +1,4 @@
-package day11Loops;
+package day14Conditions;
 
 public class ForLoop3 {
 	public static void main(String args[]) {

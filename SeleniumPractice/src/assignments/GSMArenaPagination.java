@@ -31,7 +31,7 @@ public class GSMArenaPagination {
 		if(paginationLinks.size()>0) {
 			System.out.println("Pagination exist...");
 			for(int i=0;i<paginationLinks.size();i++) {
-				wait.until(ExpectedConditions.elementToBeClickable(paginationLinks.get(i)));
+				//wait.until(ExpectedConditions.elementToBeClickable(paginationLinks.get(i)));
 				paginationLinks.get(i).click();
 				System.out.println(driver.getCurrentUrl());
 				Thread.sleep(2000);

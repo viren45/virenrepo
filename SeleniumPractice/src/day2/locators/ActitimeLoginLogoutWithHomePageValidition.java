@@ -40,7 +40,7 @@ public class ActitimeLoginLogoutWithHomePageValidition {
 		WebElement logoutButton=driver.findElement(By.id("logoutLink"));
 		//explicit wait
 		WebDriverWait wait=new WebDriverWait(driver,20);
-		wait.until(ExpectedConditions.elementToBeClickable(logoutButton));
+		//wait.until(ExpectedConditions.elementToBeClickable(logoutButton));
 		
 		String actaulHomePageTitle=driver.getTitle();//0-30
 		System.out.println("Actuatl HomePage title: "+actaulHomePageTitle);

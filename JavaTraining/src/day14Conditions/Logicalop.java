@@ -1,3 +1,5 @@
+package day14Conditions;
+
 public class Logicalop {
  public static void main(String[] args) {
   //Variables Definition and Initialization

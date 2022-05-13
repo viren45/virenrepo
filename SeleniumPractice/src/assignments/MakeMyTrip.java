@@ -20,7 +20,7 @@ public class MakeMyTrip {
 		WebElement element=driver.findElement(By.xpath("//p[text()='Pune, India']"));
 		WebDriverWait wait=new WebDriverWait(driver,20);
 		
-		wait.until(ExpectedConditions.elementToBeClickable(element));
+		//wait.until(ExpectedConditions.elementToBeClickable(element));
 		element.click();
 	}
 }

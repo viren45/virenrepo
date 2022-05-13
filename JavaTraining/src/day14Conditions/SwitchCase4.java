@@ -1,4 +1,4 @@
-package day13Case;
+package day14Conditions;
 
 public class SwitchCase4 {
 
